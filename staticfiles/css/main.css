@@ -45,7 +45,7 @@ header::after {
 
 nav {
   float: right;
-  height: 1000px;
+  height: 20px;
 }
 
 nav ul {
@@ -63,7 +63,7 @@ nav li {
 }
 
 nav a {
-  color: #FFD700;
+  color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -78,7 +78,7 @@ nav a::before {
   display: block;
   height: 5px;
   width: 0%;
-  background-color: #FFD700;
+  background-color: #FFFFFF;
 
   position: absolute;
 
