@@ -1,0 +1,95 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#profile-wrapper {
+  text-align: center;
+}
+
+#logo-pic {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #4169e1;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+  height: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #FFFFFF;
+
+  position: absolute;
+
+  top: 0;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+#medium-widget {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+.page-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
