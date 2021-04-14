@@ -45,7 +45,7 @@ header::after {
 
 nav {
   float: right;
-  height: 20px;
+  max-height: 70px;
 }
 
 nav ul {
@@ -65,8 +65,10 @@ nav li {
 nav a {
   color: #FFFFFF;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 14px;
+
+  font-family: 'Lato', sans-serif;
 }
 
 nav a:hover {
