@@ -8,7 +8,7 @@
 
   <title>Rahul D'Costa</title>
 
-  <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static '/css/experience.css' %}" rel="stylesheet" type="text/css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
@@ -32,9 +32,35 @@
     </div>
   </header>
 
-
-  <div class="card card-body" id="profile-wrapper">
-
+  <div class="page-title">
+    <h1>Work Experience</h1>
   </div>
+
+  <div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="{% static 'images/consulting-logo.jpg' %}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Omviser, Software Engineer Intern</h5>
+      <p class="card-text"><small class="text-muted">May 2020 - July 2020</small></p>
+      <p class="card-text">At omviser, I designed, developed, and integrated a feature using Django that displayed application deadlines for universities chosen by the user using scraped data from university admissions pages, implemented the delivery of emails for verification of new users, changing passwords, and connection requests between mentors and mentees, and led final platform testing of website features, site consistency, and email delivery before initial release to the public.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="{% static 'images/ios-app.png' %}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Nihilent, Software Engineer Intern</h5>
+      <p class="card-text"><small class="text-muted">June 2019 - July 2020</small></p>
+      <p class="card-text">At Nihilent, I worked on an iOS application that implemented an image classification model that I created to detect shoe models using Core ML, Apple's machine learning framework. The application supports user login and taking pictures using the iPhone camera. Once a picture is taken, the image classification model detects the model of the shoe from the dataset. The application was developed using Swift on XCode and user authentication, analytics, and crash reports were handled on the backend by Firebase.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="{% static 'images/umich-logo.jpg' %}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">University of Michigan ITS, Tech Consultant</h5>
+      <p class="card-text"><small class="text-muted">December 2018 - Present</small></p>
+      <p class="card-text">At the University of Michigan's Information Technology Services, I am responsible for assisting faculty, staff, and students with their usage of all technology provided in Campus Computing Sites facilities and services as well as personal device support.</p>
+    </div>
+  </div>
+</div>
 </body>
 </html>
