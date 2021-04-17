@@ -112,10 +112,16 @@ nav a:hover::before {
     object-fit: cover;
 }
 
-#omv-logo {
-  width: 50%;
-  height: 52.7661795405%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+.skillset {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#langlist {
+  margin-left: 10px;
+}
+
+#certlist {
+  margin-left: 10px;
 }
