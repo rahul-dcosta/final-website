@@ -104,3 +104,11 @@ nav a:hover::before {
 .card-body {
   text-align: center;
 }
+
+.card {
+  margin-bottom: 10px;
+}
+
+.inline-block {
+   display: inline-block;
+}
