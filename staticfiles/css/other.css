@@ -90,3 +90,8 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
+.page-title {
+  margin-top: 5px;
+  text-align: center;
+}
