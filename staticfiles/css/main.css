@@ -29,21 +29,29 @@ img {
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+}
+
+body {
+  width: 100;
 }
 
 header {
   background: #4169e1;
 }
 
-header::after {
+nav a {
+  margin-left: 10px;
+}
+
+/* header::after {
   content: '';
   display: table;
   clear: both;
-}
+} */
 
-nav {
+/* nav {
   float: right;
   height: 20px;
 }
@@ -65,7 +73,7 @@ nav li {
 nav a {
   color: #FFFFFF;
   text-decoration: none;
-  /* text-transform: uppercase; */
+  /* text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
 }
@@ -89,7 +97,7 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
-}
+} */
 
 .wave {
   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
